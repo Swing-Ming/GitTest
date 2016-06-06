@@ -1,0 +1,13 @@
+<filter>
+	<display-name>LoginFilter</display-name>
+	<filter-name>LoginFilter</filter-name>
+	<filter-class>com.it.Filter.LoginFilter</filter-class>
+	<init-param>
+		<param-name>uris</param-name>
+		<param-value>/index,/login,/test</param-value>
+	</init-param>
+</filter>
+<filter-mapping>
+	<filter-name>LoginFilter</filter-name>
+	<url-pattern>/*</url-pattern>
+</filter-mapping>
